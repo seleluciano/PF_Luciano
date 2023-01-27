@@ -5,6 +5,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+.cabeza{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+}
+.pago{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.formulario{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.envio{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
 
 h1 {
     color: black;
@@ -41,7 +73,7 @@ a {
 }
 
 body {
-    background-color: rgb(180, 118, 238);
+    background-color: rgb(160, 162, 199);
     width: 100%;
     height: 80%;
 }
@@ -58,7 +90,7 @@ body {
 
 #cabeza,
 #pie {
-    background-color: blueviolet;
+    background-color: rgb(153, 107, 196);
     width: 100%;
     height: 20%;
 }
@@ -124,9 +156,9 @@ body header nav ul li {
     margin: 4px;
 }
 
-.inicio img.negocio {
-    width: 50%;
-    height: 50%;
+.carousel-inner img {
+    width: 100%;
+    height: 500px;
     background-position: top center;
 }
 
@@ -144,4 +176,13 @@ header {
 .iniciarsesion h3,
 .crear h3 {
     color: black;
+}
+#pie{
+    text-align: center;
+}
+.iniciarsesion, .crear h3{
+    text-align: center;
+}
+.iniciarsesion h3{
+    text-align: center;
 }
