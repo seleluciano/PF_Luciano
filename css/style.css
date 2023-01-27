@@ -1,124 +1,147 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=PT+Mono&family=Shadows+Into+Light&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=PT+Mono&family=Shadows+Into+Light&display=swap");
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-h1{
-    color:black;
-    font-family: 'Shadows Into Light', cursive;
-     font-style: italic;
-     text-align: center;
-     text-decoration: underline;
-}
-h2{
+
+h1 {
     color: black;
-    font-family: 'PT Mono', monospace;
+    font-family: "Shadows Into Light", cursive;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    color: black;
+    font-family: "PT Mono", monospace;
     font-style: oblique;
     text-align: center;
-    
 }
-h3{
-    color:white;
-    text-align:left;
-    
+
+h3 {
+    color: white;
+    text-align: left;
 }
-p{
-    font-family: 'PT Mono', monospace;
-    color:black;
+
+p {
+    font-family: "PT Mono", monospace;
+    color: black;
     text-align: justify;
 }
-a{
-    font-family: 'PT Mono', monospace;
+
+a {
+    font-family: "PT Mono", monospace;
     color: white;
-    font-style:oblique;
+    font-style: oblique;
     text-align: justify;
     text-decoration: none;
 }
 
-body{
+body {
     background-color: rgb(180, 118, 238);
     width: 100%;
     height: 80%;
 }
-.inicio img{ 
+
+.inicio img {
     background-position: center;
-    width:100%;
-    height:100%;
-    
+    width: 100%;
+    height: 100%;
 }
-.productos{
+
+.productos {
     background-position: left;
 }
-#cabeza,#pie{
-    background-color:blueviolet ;
+
+#cabeza,
+#pie {
+    background-color: blueviolet;
     width: 100%;
     height: 20%;
-    
 }
-header a img{
+
+header a img {
     width: 30px;
     height: 30px;
     background-position: right;
 }
-footer div.pago img{
+
+footer div.pago img {
     width: 8%;
     height: 8%;
     background-position: right;
 }
-footer div h2{
+
+footer div h2 {
     text-align: left;
 }
-footer div.envio img{
+
+footer div.envio img {
     width: 10%;
     height: 10%;
     background-position: right;
 }
-body main section div img{
+
+body main section div img {
     width: 20%;
     height: 20%;
 }
-.facebook a img{
+
+.facebook a img {
     width: 10%;
     height: 10%;
 }
-.instagram a img{
+
+.instagram a img {
     width: 10%;
     height: 10%;
 }
-.whatsapp a img{
+
+.whatsapp a img {
     width: 5%;
     height: 5%;
 }
-.ubicacion iframe{
+
+.ubicacion iframe {
     width: 400px;
     height: 400px;
 }
-body header nav ul li{
+
+body header nav ul li {
     display: inline-block;
     margin: 10px;
 }
-.productos div a, .iniciarsesion a{
+
+.productos div a,
+.iniciarsesion a {
     text-decoration: none;
     color: black;
     background-color: blanchedalmond;
     padding: 2px;
-    margin:  4px;
+    margin: 4px;
 }
-.inicio img.negocio{
+
+.inicio img.negocio {
     width: 50%;
     height: 50%;
     background-position: top center;
 }
+
 header {
     position: sticky;
     top: 0;
 }
-.whatsapp a img{
+
+.whatsapp a img {
     position: fixed;
     bottom: 30px;
     right: 30px;
 }
-.iniciarsesion h3, .crear h3{
-    color:black;
+
+.iniciarsesion h3,
+.crear h3 {
+    color: black;
 }
