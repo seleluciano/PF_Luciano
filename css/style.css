@@ -13,6 +13,23 @@
     align-items: center;
     align-content: center;
 }
+.ubicacion{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+
+.redes{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: space-around;
+}
 .pago{
     display:flex;
     flex-direction: row;
@@ -147,7 +164,13 @@ body header nav ul li {
     margin: 10px;
 }
 
-.productos div a,
+.productos a{
+    text-decoration: none;
+    color: black;
+    background-color: blanchedalmond;
+    padding: 2px;
+    margin: 4px;
+}
 .iniciarsesion a {
     text-decoration: none;
     color: black;
@@ -185,4 +208,20 @@ header {
 }
 .iniciarsesion h3{
     text-align: center;
+}
+.grid {
+    text-decoration: none;
+    display: grid;
+    grid-template-columns:33.3% 33.3% 33.3%;
+    grid-template-rows: 50% 50%;
+}
+.grid div{
+    background-color: rgb(89, 79, 102);
+    border:2px solid black;
+    margin:5px;
+    padding: 20px;
+}
+.grid div img{
+    width: 80%;
+    height: 80%;
 }
