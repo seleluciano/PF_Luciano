@@ -5,16 +5,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-.cabeza{
-    display:flex;
+
+.cabeza {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-end;
     align-items: center;
     align-content: center;
 }
-.ubicacion{
-    display:flex;
+
+.ubicacion {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -22,32 +24,35 @@
     align-content: space-around;
 }
 
-.redes{
-    display:flex;
+.redes {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
     align-content: space-around;
 }
-.pago{
-    display:flex;
+
+.pago {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     align-content: center;
 }
-.formulario{
-    display:flex;
+
+.formulario {
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     align-content: center;
 }
-.envio{
-    display:flex;
+
+.envio {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -164,13 +169,14 @@ body header nav ul li {
     margin: 10px;
 }
 
-.productos a{
+.productos a {
     text-decoration: none;
     color: black;
     background-color: blanchedalmond;
     padding: 2px;
     margin: 4px;
 }
+
 .iniciarsesion a {
     text-decoration: none;
     color: black;
@@ -200,28 +206,70 @@ header {
 .crear h3 {
     color: black;
 }
-#pie{
+
+#pie {
     text-align: center;
 }
-.iniciarsesion, .crear h3{
+
+.iniciarsesion,
+.crear h3 {
     text-align: center;
 }
-.iniciarsesion h3{
+
+.iniciarsesion h3 {
     text-align: center;
 }
+
 .grid {
     text-decoration: none;
+    margin: auto;
     display: grid;
-    grid-template-columns:33.3% 33.3% 33.3%;
+    grid-template-columns: 33.3% 33.3% 33.3%;
     grid-template-rows: 50% 50%;
 }
-.grid div{
+
+.grid-item {
     background-color: rgb(89, 79, 102);
-    border:2px solid black;
-    margin:5px;
+    border: 2px solid black;
+    margin: 5px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.grid div img{
+
+@media only screen and (min-width: 320px) {
+    .grid {
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(5, 20%);
+    }
+}
+
+
+@media only screen and (min-width: 480px) {
+    .grid {
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(3, 33%);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(3, 34%);
+        grid-template-rows: repeat(2, 50%);
+    }
+}
+
+.grid-item img {
     width: 80%;
     height: 80%;
+}
+
+.grid-item div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
