@@ -112,7 +112,7 @@ body {
 
 #cabeza,
 #pie {
-    background-color: rgb(153, 107, 196);
+    background-image: linear-gradient(to right, #8312eb, #8b26eb, #9234ec, #9941ec, #a04cec);
     width: 100%;
     height: 20%;
 }
@@ -169,13 +169,6 @@ body header nav ul li {
     margin: 10px;
 }
 
-.productos a {
-    text-decoration: none;
-    color: black;
-    background-color: blanchedalmond;
-    padding: 2px;
-    margin: 4px;
-}
 
 .iniciarsesion a {
     text-decoration: none;
@@ -261,15 +254,38 @@ header {
     }
 }
 
-.grid-item img {
-    width: 80%;
-    height: 80%;
-}
-
 .grid-item div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.grid-item img {
+    width: 80%;
+    height: 80%;
+    transition-duration: 3s;
+    transition-timing-function: ease-out;
+}
+
+.grid-item img:hover {
+    width: 85%;
+    transform: widht 3s;
+}
+
+.grid-item div a {
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+
+.grid-item div a:hover {
+    transform: scale(1.2, 1.2);
+}
+.productos a {
+    text-decoration: none;
+    color: black;
+    background-color: blanchedalmond;
+    padding: 2px;
+    margin: 4px;
 }
