@@ -10,3 +10,47 @@ body {
     width: 100%;
     height: 80%;
 }
+h1 {
+    color: black;
+    font-family: "Shadows Into Light", cursive;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    color: black;
+    font-family: "PT Mono", monospace;
+    font-style: oblique;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    text-align: left;
+}
+
+p {
+    font-family: "PT Mono", monospace;
+    color: black;
+    text-align: justify;
+}
+
+a {
+    font-family: "PT Mono", monospace;
+    color: white;
+    font-style: oblique;
+    text-align: justify;
+    text-decoration: none;
+}
+.whatsapp {
+    a {
+        img {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 5%;
+            height: 5%;
+        }
+    }
+}

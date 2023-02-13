@@ -137,10 +137,7 @@ footer div.envio img {
     background-position: right;
 }
 
-body main section div img {
-    width: 20%;
-    height: 20%;
-}
+
 
 .facebook a img {
     width: 10%;
@@ -168,7 +165,7 @@ body main section div img {
 }
 
 
-.iniciarsesion a {
+.iniciarsesion input {
     text-decoration: none;
     color: black;
     background-color: blanchedalmond;
